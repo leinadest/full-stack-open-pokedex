@@ -55,5 +55,10 @@
   },
   "jest": {
     "testEnvironment": "jsdom"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "semi": false
   }
 }
