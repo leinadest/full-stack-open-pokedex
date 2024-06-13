@@ -1,9 +1,14 @@
 name: Deployment pipeline
 
 on:
+  # Trigger when a commit is pushed into main
   push:
     branches:
       - main
+  # Trigger when a PR into main is opened or updated
+  pull_request:
+    branches: [main]
+    types: [opened, synchronized]
 
 jobs:
   simple_deployment_pipeline:
