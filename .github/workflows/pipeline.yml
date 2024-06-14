@@ -8,7 +8,7 @@ on:
   # Trigger when a PR into main is opened or updated
   pull_request:
     branches: [main]
-    types: [opened, synchronized]
+    types: [opened, synchronized, edit, reopened]
 
 jobs:
   simple_deployment_pipeline:
