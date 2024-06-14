@@ -14,7 +14,7 @@ jobs:
       uses: jtalk/url-health-check-action@b716ccb6645355dd9fcce8002ce460e5474f7f00
       with:
         # Check the following URLs one by one sequentially
-        url: https://leinadest-full-stack-open-pokedex.fly.dev/https://leinadest-full-stack-open-pokedex.fly.dev/pokemon/bulbasaur|https://leinadest-full-stack-open-pokedex.fly.dev/health
+        url: https://leinadest-full-stack-open-pokedex.fly.dev|https://leinadest-full-stack-open-pokedex.fly.dev/health
         # Follow redirects, or just report success on 3xx status codes
         follow-redirect: false # Optional, defaults to "false"
         # Fail this action after this many failed attempts
